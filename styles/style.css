@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+
+
+
+/* shared styles */
+
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container_width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+:root{
+    --primary-color: rgba(255, 66, 165, 1);
+    
+}
+
+/* shared styles ------------------- */
