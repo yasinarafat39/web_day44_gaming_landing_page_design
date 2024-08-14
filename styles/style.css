@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
 }
 
-.btn_primary{
+.btn_primary {
     padding: 21px 40px;
     border: none;
     border-radius: 50px;
@@ -139,18 +139,18 @@ body {
     align-items: center;
 }
 
-.hero_left { 
+.hero_left {
     width: 50%;
     position: relative;
 }
 
-.hero_title_1{
+.hero_title_1 {
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.hero_title_2{
+.hero_title_2 {
     font-size: 95px;
     font-weight: 800;
     margin: 4px 0 24px;
@@ -160,30 +160,31 @@ body {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
 }
 
-.hero_title_2_overlay{
+.hero_title_2_overlay {
     text-shadow: none;
     position: absolute;
     top: 14%;
 }
 
-.hero_description{
+.hero_description {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 16px;
     color: var(--secondary-text-color);
 }
 
-.hero_btn_1{
+.hero_btn_1 {
     background-color: var(--primary-color);
     color: white;
     margin-right: 24px;
 }
-.hero_btn_2{
+
+.hero_btn_2 {
     background-color: #4EC5F7;
     color: white;
 }
 
-.hero_right { 
+.hero_right {
     width: 50%;
 }
 
@@ -191,6 +192,58 @@ body {
     width: 100%;
 }
 
-
-
 /* Hero section end */
+
+
+
+/* We are gamer section start */
+
+.we_are_gamer {
+    background-color: rgba(255, 66, 164, 0.03);
+}
+
+.we_are_gamer_main {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    padding: 55px 0;
+}
+
+.we_are_right {
+    text-align: right;
+}
+
+.we_are_right .title {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    color: transparent;
+}
+
+.we_are_right .description {
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--secondary-text-color);
+    margin-top: 24px;
+}
+
+.know_more_btn {
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 32px;
+}
+
+.our_purpose {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 24px;
+}
+
+.our_purpose span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* We are gamer section end */
