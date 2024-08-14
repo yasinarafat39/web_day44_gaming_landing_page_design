@@ -312,12 +312,12 @@ body {
     display: block;
 }
 
- 
- 
+
+
 
 .video .play_now:hover,
 img:hover+.play_now {
-    display: block; 
+    display: block;
 }
 
 
@@ -354,40 +354,39 @@ img:hover+.play_now {
 
 /* Play Instantly section start */
 
-.play_instantly{
+.play_instantly {
     margin-bottom: 195px;
 }
 
-.play_instantly_main{
+.play_instantly_main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 265px;
 }
 
-.play_instantly_left{
+.play_instantly_left {
     text-align: right; 
-    border: 1px solid var(--primary-color);
     width: 540px;
     display: flex;
     justify-content: flex-end;
 }
 
-.play_instantly_left_content{ 
-    border: 1px solid var(--primary-color);
-    max-width: 353px;
+.play_instantly_left_content { 
+    width: 353px;
 }
 
-.play_instantly_left_content .title{
+.play_instantly_left_content .title {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
 }
-.play_instantly_left_content .title>span{ 
+
+.play_instantly_left_content .title>span {
     color: var(--primary-color);
 }
 
-.play_instantly_left_content .description{
+.play_instantly_left_content .description {
     font-size: 18px;
     line-height: 30px;
     margin-top: 24px;
@@ -398,12 +397,30 @@ img:hover+.play_now {
     position: relative;
 }
 
-.play_instantly_right .secondary_banner{
+.play_instantly_right .secondary_banner {
     position: absolute;
     bottom: -76px;
     left: -145px;
 }
 
-
-
 /* Play Instantly section end */
+
+
+
+/* Play Games section start */
+.play_games .play_games_left .secondary_banner {
+    position: absolute;
+    left: 528px;
+}
+
+.play_games_right {
+    justify-content: flex-start;
+    width: 483px;
+}
+
+.play_games_right_content {
+    text-align: left;
+    width: 483px;
+}
+
+/* Play Games section end */
