@@ -366,13 +366,13 @@ img:hover+.play_now {
 }
 
 .play_instantly_left {
-    text-align: right; 
+    text-align: right;
     width: 540px;
     display: flex;
     justify-content: flex-end;
 }
 
-.play_instantly_left_content { 
+.play_instantly_left_content {
     width: 353px;
 }
 
@@ -424,3 +424,54 @@ img:hover+.play_now {
 }
 
 /* Play Games section end */
+
+
+
+/* Careers section start */
+.careers_section {
+    background-color: var(--primary-color);
+    margin-top: 243px;
+    margin-bottom: 120px;
+    color: white;
+    position: relative;
+}
+ 
+
+.careers_main {
+    display: flex;
+    gap: 80px; 
+    padding: 120px 0;
+}
+
+.careers_left .title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.careers_left .careers_description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about_careers_topics {
+    display: flex;
+    justify-content: space-between;
+    gap: 97px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.team_members_locations {
+    text-align: right;
+}
+
+.career_btn {
+    background-color: white;
+    color: var(--primary-color);
+}
+ 
+
+/* Careers section end */
