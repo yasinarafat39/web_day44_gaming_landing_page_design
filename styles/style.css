@@ -349,3 +349,61 @@ img:hover+.play_now {
 }
 
 /* Online Games Funny Videos section end */
+
+
+
+/* Play Instantly section start */
+
+.play_instantly{
+    margin-bottom: 195px;
+}
+
+.play_instantly_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 265px;
+}
+
+.play_instantly_left{
+    text-align: right; 
+    border: 1px solid var(--primary-color);
+    width: 540px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.play_instantly_left_content{ 
+    border: 1px solid var(--primary-color);
+    max-width: 353px;
+}
+
+.play_instantly_left_content .title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play_instantly_left_content .title>span{ 
+    color: var(--primary-color);
+}
+
+.play_instantly_left_content .description{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+    color: var(--secondary-text-color);
+}
+
+.play_instantly_right {
+    position: relative;
+}
+
+.play_instantly_right .secondary_banner{
+    position: absolute;
+    bottom: -76px;
+    left: -145px;
+}
+
+
+
+/* Play Instantly section end */
