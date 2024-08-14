@@ -6,9 +6,17 @@
 
 /* shared styles */
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     max-width: 1920px;
     margin: 0 auto;
+    font-family: "Work Sans", sans-serif;
 }
 
 .container_width{
@@ -18,7 +26,86 @@ body{
 
 :root{
     --primary-color: rgba(255, 66, 165, 1);
-    
+    --primary-text-color: #0B0223;
 }
 
 /* shared styles ------------------- */
+
+
+
+/* navbar start */
+
+.navbar{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.082);
+}
+
+.nav_content{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.logo_container img{
+    margin-right: 20px;
+}
+
+.nav_items{
+    display: flex;
+    gap: 32px;
+}
+
+.nav_items button{ 
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.youtube_logo, .tiktok_logo, .nav_btn_fllow_text{
+    display: inline-block;
+}
+
+.youtube_logo, .tiktok_logo{
+    cursor: pointer;
+}
+
+.youtube_logo{
+    width: 34px; 
+}
+.tiktok_logo{
+    width: 24px;
+    height: 24px;
+}
+
+.nav_btn, .nav_btn_fllow{
+    display: inline-block;
+}
+
+.nav_btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_btn_fllow{
+    display: flex;
+    align-items: center;
+    gap: 24px; 
+    border: none;
+    padding: 17px 24px;
+    border-radius: 10px;
+}
+
+/* navbar end */
