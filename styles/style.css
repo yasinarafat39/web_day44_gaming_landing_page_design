@@ -7,26 +7,37 @@
 /* shared styles */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     max-width: 1920px;
     margin: 0 auto;
     font-family: "Work Sans", sans-serif;
 }
 
-.container_width{
+.container_width {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-:root{
+.btn_primary{
+    padding: 21px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+:root {
     --primary-color: rgba(255, 66, 165, 1);
     --primary-text-color: #0B0223;
+    --secondary-text-color: #534C64;
 }
 
 /* shared styles ------------------- */
@@ -35,11 +46,11 @@ body{
 
 /* navbar start */
 
-.navbar{
+.navbar {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.082);
 }
 
-.nav_content{ 
+.nav_content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,65 +58,139 @@ body{
     padding-bottom: 37px;
 }
 
-.logo_container{
+.logo_container {
     display: flex;
     align-items: center;
 }
 
-.logo{
+.logo {
     font-size: 45px;
     font-weight: 700;
     color: var(--primary-text-color);
 }
 
-.logo_container img{
+.logo_container img {
     margin-right: 20px;
 }
 
-.nav_items{
+.nav_items {
     display: flex;
     gap: 32px;
 }
 
-.nav_items button{ 
+.nav_items button {
     font-size: 18px;
     font-weight: 500;
     color: var(--primary-text-color);
 }
 
-.youtube_logo, .tiktok_logo, .nav_btn_fllow_text{
+.youtube_logo,
+.tiktok_logo,
+.nav_btn_fllow_text {
     display: inline-block;
 }
 
-.youtube_logo, .tiktok_logo{
+.youtube_logo,
+.tiktok_logo {
     cursor: pointer;
 }
 
-.youtube_logo{
-    width: 34px; 
+.youtube_logo {
+    width: 34px;
 }
-.tiktok_logo{
+
+.tiktok_logo {
     width: 24px;
     height: 24px;
 }
 
-.nav_btn, .nav_btn_fllow{
+.nav_btn,
+.nav_btn_fllow {
     display: inline-block;
 }
 
-.nav_btn{
+.nav_btn {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.nav_btn_fllow{
+.nav_btn_fllow {
     display: flex;
     align-items: center;
-    gap: 24px; 
+    gap: 24px;
     border: none;
     padding: 17px 24px;
     border-radius: 10px;
 }
 
 /* navbar end */
+
+/* Hero section start */
+.hero_container {
+    background-image: url("../assets/Group\ 14.png");
+    background-repeat: no-repeat;
+
+}
+
+.hero_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_left { 
+    width: 50%;
+    position: relative;
+}
+
+.hero_title_1{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero_title_2{
+    font-size: 95px;
+    font-weight: 800;
+    margin: 4px 0 24px;
+    background-image: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
+}
+
+.hero_title_2_overlay{
+    text-shadow: none;
+    position: absolute;
+    top: 14%;
+}
+
+.hero_description{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: var(--secondary-text-color);
+}
+
+.hero_btn_1{
+    background-color: var(--primary-color);
+    color: white;
+    margin-right: 24px;
+}
+.hero_btn_2{
+    background-color: #4EC5F7;
+    color: white;
+}
+
+.hero_right { 
+    width: 50%;
+}
+
+.hero_right img {
+    width: 100%;
+}
+
+
+
+/* Hero section end */
