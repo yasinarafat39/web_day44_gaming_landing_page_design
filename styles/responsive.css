@@ -1,0 +1,143 @@
+
+
+@media screen and (max-width: 576px) {
+
+
+    
+
+    /* navbar start */
+    .nav_content{
+        flex-direction: column;
+        gap: 62px;
+    }
+
+    .nav_items{
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .nav_btn_fllow{
+        margin-top: 26px;
+    }
+
+    .navbar{
+        box-shadow: none;
+    }
+
+    .hero_title_2_overlay{
+        display: none;
+    }
+    /* navbar end */
+
+
+    /* hero section start */
+    .hero_main{
+        flex-direction: column-reverse;
+        gap: 52px;
+    }
+
+    .hero_left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero_right{
+        width: 100%;
+    }
+    /* hero section end */
+
+    
+    /* we_are_gamer_main start */
+    .we_are_gamer_main{
+        flex-direction: column;
+    }
+    .we_are_left img{
+        width: 100%;
+    }
+
+    .we_are_right{
+        text-align: center;
+    }
+    /* we_are_gamer_main end */
+
+
+    /* Online games section start */
+
+    .online_games_funny_videos{
+        margin-top: 40px;
+    }
+
+    .videos_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .play_games .play_games_left .secondary_banner{
+        right: 12%;
+        left: auto;
+    }
+
+    .play_games_right_content{
+        width: auto;
+        text-align: center;
+    }
+    /* Online games section end */
+
+
+    
+    /* Play Instantly section start */
+    .play_instantly_main{
+        flex-direction: column;
+        gap: 128px;
+    }
+
+    .play_instantly_left{
+        text-align: center;
+        width: auto;
+    }
+ 
+
+    .banner1{ 
+        display: flex;
+        justify-content: end;
+    }
+
+    .banner1 img{
+        width: 70%; 
+    }
+
+    .banner2{
+        display: flex;
+        justify-content: start;
+    }
+
+    .banner2 img{
+        width: 70%; 
+    }
+
+    .play_instantly_right .secondary_banner{
+        width: 45%;
+        left: 12%;
+    }
+    /* Play Instantly section end */
+
+
+
+    /* careers section start */
+
+    .careers_section{
+        margin-top: 60px;
+    }
+
+    .careers_main{
+        flex-direction: column;
+    }
+
+    .about_careers_topics{
+        flex-direction: column;
+    }
+
+    .careers_right img{
+        width: 100%;
+    }
+    /* careers section end */
+}

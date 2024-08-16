@@ -403,6 +403,10 @@ img:hover+.play_now {
     left: -145px;
 }
 
+.banner1 img{
+    width: 100%;
+    height: 100%;
+}
 /* Play Instantly section end */
 
 
@@ -472,6 +476,4 @@ img:hover+.play_now {
     background-color: white;
     color: var(--primary-color);
 }
- 
-
 /* Careers section end */
