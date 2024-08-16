@@ -434,8 +434,7 @@ img:hover+.play_now {
 /* Careers section start */
 .careers_section {
     background-color: var(--primary-color);
-    margin-top: 243px;
-    margin-bottom: 120px;
+    margin-top: 243px; 
     color: white;
     position: relative;
 }
@@ -477,3 +476,41 @@ img:hover+.play_now {
     color: var(--primary-color);
 }
 /* Careers section end */
+
+
+/* category section start */
+
+.categories{
+    margin-bottom: 118px; 
+    background-color: rgba(255, 66, 164, 3%);
+}
+
+.category_parent{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    flex-wrap: wrap;
+    padding: 120px 0;
+}
+
+.category_child{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px;
+    min-width: 248px;
+    border-radius: 50px;
+}
+
+.category_child p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.category_child:hover{
+    outline: 1.5px solid #FF42A5;
+    border-radius: 50px;
+}
+
+/* category section end */

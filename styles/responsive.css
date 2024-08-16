@@ -140,4 +140,12 @@
         width: 100%;
     }
     /* careers section end */
+
+
+    /* category section start */
+    .category_child{ 
+        min-width: auto;
+        flex-basis: 100px;
+    }
+    /* category section end */
 }
